@@ -2,23 +2,28 @@
 
 /* font-family: "Open Sans", sans-serif; */
 
-.open-sans-uniquifier  {
+.open-sans-uniquifier {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
+
 /* Shared Style */
+.secondery-bg {
+  background-color: #fff8f3;
+}
+
 .text-primary {
   color: #fd6e0a;
 }
 .dark-2 {
   color: #474747;
 }
-.dark-3{
-  color:#757575;
+.dark-3 {
+  color: #757575;
 }
-.btn-primary{
+.btn-primary {
   background-color: #fd6e0a;
   font-weight: 700;
   font-size: 20px;
@@ -26,12 +31,21 @@
   padding: 18px 35px;
   border: none;
   border-radius: 5px;
+}
 
+.section-title {
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+}
+.section-description {
+  font-size: 18px;
 }
 
 /* Header Style */
-.header{
-  background-image: url("../images/developer.png"), url("../images/header_bg.png") ;
+.header {
+  background-image: url("../images/developer.png"),
+    url("../images/header_bg.png");
   background-repeat: no-repeat;
   background-position: top left, bottom right;
 }
@@ -51,7 +65,6 @@ nav ul {
   display: flex;
   /* upore niche or vertically center a anar command */
   align-items: center;
-  
 }
 nav ul li {
   list-style: none;
@@ -62,29 +75,55 @@ nav li a {
   font-size: 20px;
 }
 
-
 /* Banner Styles */
 
-.banner{
+.banner {
   display: flex;
   justify-content: space-between;
   margin: 0 35px 0 200px;
 }
-.bannner-content{
+.bannner-content {
   max-width: 580px;
 }
-.banner-greetings{
+.banner-greetings {
   font-size: 45px;
   font-weight: 600;
 }
-.banner-title{
+.banner-title {
   font-weight: bold;
   font-size: 85px;
 }
-.banner-description{
+.banner-description {
   font-size: 18px;
 }
 
-.banner-profile-pic{
+.banner-profile-pic {
   width: 580px;
+}
+
+/* Main Styles */
+
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* About Styles */
+
+.about {
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+  margin-top: 130px;
+}
+.section-title-description {
+  background-color: white;
+}
+
+.about-iteams {
+  display: flex;
+  justify-content: space-around;
+}
+.iteam-description {
+  font-weight: 600;
 }
