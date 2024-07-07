@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
+
 /* font-family: "Open Sans", sans-serif; */
 
 .open-sans-uniquifier {
@@ -153,7 +154,7 @@ main section {
 }
 
 /* resume Section styles */
-.title{
+.title {
   font-size: 35px;
   font-weight: bold;
   margin: 100px auto;
@@ -163,7 +164,7 @@ main section {
   display: flex;
   gap: 70px;
 }
-.resume-column-title{
+.resume-column-title {
   font-weight: bold;
   font-size: 30px;
   color: #474747;
@@ -187,28 +188,28 @@ main section {
 /* .resume.hr{
   margin: 30px 5px;
 } */
-.resume-download-cv{
+.resume-download-cv {
   margin-top: 50px;
 }
 
 /* Footer style */
 
-footer{
+footer {
   padding: 130px 230px;
   display: flex;
   gap: 100px;
 }
-.footer-column{
+.footer-column {
   width: 50%;
 }
-.input-type  {
-height: 64px;
-border-radius: 5px;
-background-color: white;
-display: block;
-width: 100%;
-padding: 10px 20px;
-margin-bottom: 24px;
-border: none;
-font-size: 16px;
+.input-type {
+  height: 64px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
+  font-size: 16px;
 }
